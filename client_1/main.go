@@ -215,13 +215,3 @@ func (s *Server) helloWorld(c *gin.Context) {
 // go run ./10-binance-ws/test1/main.go
 // min-timestamp = 1654052374471
 // http://localhost:8001/api/?symbol=AAVEUSDT&from=1654052380000&to=1654052410000&interval=3000
-/*
-
-| Type\Time | 1/6/2022 |
-|||
-
-| _---Date---_ | _---Loan---_ | _---Lend---_ | _VietinBank_ | _--MBank---_ | _---Momo---_ | _Shopee Pay_ | _---Cash---_ | _-K.Credit-_ | _-E.Binance_ |  _--Total---_ |
-|------|:------:|------|------|------|------|------|------|------|------|------|
-| 1/6/2022 | -9m500k | 0 | 2m474k | 0 | 400k | 91k | 1m486k | -456k | 0 | -5m505k |
-
-*/
